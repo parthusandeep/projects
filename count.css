@@ -1,0 +1,42 @@
+.countdown{
+display:flex;
+position: absolute;
+align-items: center;
+justify-items: center;
+} 
+/* /* Style the body to center everything */
+body {
+     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 100vh;          /* Full viewport height */
+     margin: 0;             /* Remove default margins */
+    background-color: #282c34; /* Dark background color */
+    color: #fff;            /* White text color for contrast */
+}
+
+/* Style the countdown container */
+.countdown {
+    display: flex;
+    gap: 20px; /* Spacing between countdown items */
+}
+
+/* Style each countdown block */
+/* .countdown div {
+    text-align: center;
+    font-size: 24px;
+} */
+
+/* Style the numbers */
+.countdown p {
+    font-size: 48px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Style the labels (days, hours, etc.) */
+.countdown span {
+    font-size: 16px;
+    color: #aaa;
+}
